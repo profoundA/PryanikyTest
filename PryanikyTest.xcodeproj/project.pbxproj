@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21761C9F9BA9FB60F3672954 /* Pods_PryanikyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D521A92FCC1545BAAFB4D5 /* Pods_PryanikyTest.framework */; };
+		3210C04128441844004C572F /* PryanikyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210C04028441844004C572F /* PryanikyDetailViewController.swift */; };
 		32702680283FD9640022807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270267F283FD9640022807A /* AppDelegate.swift */; };
 		32702682283FD9640022807A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32702681283FD9640022807A /* SceneDelegate.swift */; };
-		32702684283FD9640022807A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32702683283FD9640022807A /* ViewController.swift */; };
-		32702687283FD9640022807A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32702685283FD9640022807A /* Main.storyboard */; };
+		32702684283FD9640022807A /* PryanikyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32702683283FD9640022807A /* PryanikyViewController.swift */; };
 		32702689283FD9660022807A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32702688283FD9660022807A /* Assets.xcassets */; };
 		3270268C283FD9660022807A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270268A283FD9660022807A /* LaunchScreen.storyboard */; };
+		32702697283FE8170022807A /* PryanikyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32702696283FE8170022807A /* PryanikyViewModel.swift */; };
+		3270269A28411C8A0022807A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270269928411C8A0022807A /* NetworkManager.swift */; };
+		3270269C28411CCC0022807A /* PryanikyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270269B28411CCC0022807A /* PryanikyModel.swift */; };
+		3270269F284136DE0022807A /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270269E284136DE0022807A /* ImageViewExtension.swift */; };
+		327026A1284137390022807A /* Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327026A0284137390022807A /* Next.swift */; };
+		327026A62841382A0022807A /* PryanikyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327026A52841382A0022807A /* PryanikyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3210C04028441844004C572F /* PryanikyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyDetailViewController.swift; sourceTree = "<group>"; };
 		3270267C283FD9640022807A /* PryanikyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryanikyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3270267F283FD9640022807A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32702681283FD9640022807A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32702683283FD9640022807A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32702686283FD9640022807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32702683283FD9640022807A /* PryanikyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyViewController.swift; sourceTree = "<group>"; };
 		32702688283FD9660022807A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3270268B283FD9660022807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3270268D283FD9660022807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32702696283FE8170022807A /* PryanikyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyViewModel.swift; sourceTree = "<group>"; };
+		3270269928411C8A0022807A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3270269B28411CCC0022807A /* PryanikyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyModel.swift; sourceTree = "<group>"; };
+		3270269E284136DE0022807A /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		327026A0284137390022807A /* Next.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next.swift; sourceTree = "<group>"; };
+		327026A52841382A0022807A /* PryanikyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyCell.swift; sourceTree = "<group>"; };
+		A20D180448955B8EF96AE620 /* Pods-PryanikyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTest.release.xcconfig"; path = "Target Support Files/Pods-PryanikyTest/Pods-PryanikyTest.release.xcconfig"; sourceTree = "<group>"; };
+		A4D521A92FCC1545BAAFB4D5 /* Pods_PryanikyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D0CF6CCDE1EE21ACA9C162 /* Pods-PryanikyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTest.debug.xcconfig"; path = "Target Support Files/Pods-PryanikyTest/Pods-PryanikyTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21761C9F9BA9FB60F3672954 /* Pods_PryanikyTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26EE7327785AB93939342DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D521A92FCC1545BAAFB4D5 /* Pods_PryanikyTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3210C04228441BF3004C572F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32702688283FD9660022807A /* Assets.xcassets */,
+				3270268D283FD9660022807A /* Info.plist */,
+				3270268A283FD9660022807A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		32702673283FD9640022807A = {
 			isa = PBXGroup;
 			children = (
 				3270267E283FD9640022807A /* PryanikyTest */,
 				3270267D283FD9640022807A /* Products */,
+				668B6D753DECCB638552C799 /* Pods */,
+				26EE7327785AB93939342DB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,92 @@
 		3270267E283FD9640022807A /* PryanikyTest */ = {
 			isa = PBXGroup;
 			children = (
-				3270267F283FD9640022807A /* AppDelegate.swift */,
-				32702681283FD9640022807A /* SceneDelegate.swift */,
-				32702683283FD9640022807A /* ViewController.swift */,
-				32702685283FD9640022807A /* Main.storyboard */,
-				32702688283FD9660022807A /* Assets.xcassets */,
-				3270268A283FD9660022807A /* LaunchScreen.storyboard */,
-				3270268D283FD9660022807A /* Info.plist */,
+				32702693283FE4630022807A /* App */,
+				3270269D284136BC0022807A /* Extensions */,
+				327026A2284137F40022807A /* MainModule */,
+				3270269828411C730022807A /* Manager */,
+				32702694283FE7F30022807A /* Model */,
+				3210C04228441BF3004C572F /* Resources */,
 			);
 			path = PryanikyTest;
+			sourceTree = "<group>";
+		};
+		32702693283FE4630022807A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3270267F283FD9640022807A /* AppDelegate.swift */,
+				32702681283FD9640022807A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		32702694283FE7F30022807A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3270269B28411CCC0022807A /* PryanikyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32702695283FE7FB0022807A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				32702696283FE8170022807A /* PryanikyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3270269828411C730022807A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3270269928411C8A0022807A /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3270269D284136BC0022807A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3270269E284136DE0022807A /* ImageViewExtension.swift */,
+				327026A0284137390022807A /* Next.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		327026A2284137F40022807A /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				327026A3284138010022807A /* Controller */,
+				327026A42841380C0022807A /* View */,
+				32702695283FE7FB0022807A /* ViewModel */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		327026A3284138010022807A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32702683283FD9640022807A /* PryanikyViewController.swift */,
+				3210C04028441844004C572F /* PryanikyDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		327026A42841380C0022807A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				327026A52841382A0022807A /* PryanikyCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		668B6D753DECCB638552C799 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6D0CF6CCDE1EE21ACA9C162 /* Pods-PryanikyTest.debug.xcconfig */,
+				A20D180448955B8EF96AE620 /* Pods-PryanikyTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32702690283FD9660022807A /* Build configuration list for PBXNativeTarget "PryanikyTest" */;
 			buildPhases = (
+				A5B74DE11C608A06FAA2D365 /* [CP] Check Pods Manifest.lock */,
 				32702678283FD9640022807A /* Sources */,
 				32702679283FD9640022807A /* Frameworks */,
 				3270267A283FD9640022807A /* Resources */,
+				84B9BC9E1C40BC7AE297DF8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +243,66 @@
 			files = (
 				3270268C283FD9660022807A /* LaunchScreen.storyboard in Resources */,
 				32702689283FD9660022807A /* Assets.xcassets in Resources */,
-				32702687283FD9640022807A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84B9BC9E1C40BC7AE297DF8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTest/Pods-PryanikyTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTest/Pods-PryanikyTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PryanikyTest/Pods-PryanikyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B74DE11C608A06FAA2D365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32702678283FD9640022807A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32702684283FD9640022807A /* ViewController.swift in Sources */,
+				32702684283FD9640022807A /* PryanikyViewController.swift in Sources */,
+				3270269F284136DE0022807A /* ImageViewExtension.swift in Sources */,
+				327026A62841382A0022807A /* PryanikyCell.swift in Sources */,
+				32702697283FE8170022807A /* PryanikyViewModel.swift in Sources */,
+				3210C04128441844004C572F /* PryanikyDetailViewController.swift in Sources */,
+				3270269A28411C8A0022807A /* NetworkManager.swift in Sources */,
+				327026A1284137390022807A /* Next.swift in Sources */,
+				3270269C28411CCC0022807A /* PryanikyModel.swift in Sources */,
 				32702680283FD9640022807A /* AppDelegate.swift in Sources */,
 				32702682283FD9640022807A /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +311,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32702685283FD9640022807A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32702686283FD9640022807A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3270268A283FD9660022807A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +438,7 @@
 		};
 		32702691283FD9660022807A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D0CF6CCDE1EE21ACA9C162 /* Pods-PryanikyTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,10 +446,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35Z5R84P59;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PryanikyTest/Info.plist;
+				INFOPLIST_FILE = PryanikyTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +466,7 @@
 		};
 		32702692283FD9660022807A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20D180448955B8EF96AE620 /* Pods-PryanikyTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,10 +474,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35Z5R84P59;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PryanikyTest/Info.plist;
+				INFOPLIST_FILE = PryanikyTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
