@@ -9,6 +9,8 @@ import UIKit
 
 class PryanikyDetailViewController: UIViewController {
     
+    var text: String?
+    
     let label = UILabel().next {
         $0.font = UIFont.systemFont(ofSize: 20, weight: .bold)
     }
@@ -20,6 +22,7 @@ class PryanikyDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        navigationItem.title = text
         view.addSubview(label)
         view.addSubview(imageView)
         

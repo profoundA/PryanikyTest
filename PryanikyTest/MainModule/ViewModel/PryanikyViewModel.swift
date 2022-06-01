@@ -38,12 +38,14 @@ class PryanikyViewModel: PryanikyViewModelProtocol {
         
         if let url = model.data?.url {
             detailVC.imageView.setImage(imageUrl: url)
+            detailVC.text = model.data?.text
             navController.pushViewController(detailVC, animated: true)
         } else if let variants = model.data?.variants {
             let alert = self.createAlert(array: variants, navController: navController)
             viewController.present(alert, animated: true)
         } else {
             detailVC.label.text = model.data?.text
+            detailVC.text = model.name
             navController.pushViewController(detailVC, animated: true)
         }
     }
@@ -56,6 +58,7 @@ class PryanikyViewModel: PryanikyViewModelProtocol {
             alertController.addAction(UIAlertAction(title: id, style: .default, handler: { _ in
                 let detailVC = PryanikyDetailViewController()
                 detailVC.label.text = array[varNumber].text ?? ""
+                detailVC.text = "\(array[varNumber].id ?? 0)"
                 navController.pushViewController(detailVC, animated: true)
             }))
         }
